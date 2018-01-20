@@ -1,0 +1,52 @@
+#btndiv, table{
+    height: 50px;
+    width: 300px;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+
+    margin-left: -150px;
+}
+
+#btndiv{
+    margin-top: 100px;
+}
+
+table{
+    margin-top: 50px;
+}
+
+#btndiv .button{
+    width: inherit;
+    height: auto;
+}
+
+table .button{
+    width: 80px;
+    height: 40px;
+    vertical-align: middle;
+}
+
+#login:not(:hover), #logout:not(:hover), #profile:not(:hover){
+    background-color: lightgray;
+}
+
+#my:hover{
+    color: gold;
+}
+
+#imgdiv{
+
+    width: 1080px;
+    position: fixed;
+    left: 50%;
+    margin-left: -350px;
+    margin-top : 50px;
+}
+
+#imgdiv img{
+    max-width:100%;
+    max-height:100%;
+}
+
